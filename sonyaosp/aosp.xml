@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.1" >
+  <!-- project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project -->
 
   <project path="external/tinyalsa" name="SonyAosp/platform_external_tinyalsa" groups="pdk" remote="github" revision="android-7.1" />
   <project path="external/tinycompress" name="SonyAosp/platform_external_tinycompress" groups="pdk" remote="github" revision="android-7.1" />
@@ -29,8 +29,8 @@
 
   <project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.1" />
 
-  <project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="android-7.1" >
+  <!-- project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="android-7.1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
-  </project>
+  </project -->
 
 </manifest>
