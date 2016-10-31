@@ -2,5 +2,5 @@
 <manifest>
   <project path="external/toybox" name="lowtraxx/platform_external_toybox" groups="pdk" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/audio" name="lowtraxx/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="android-7.1" />
-  <project path="system/core" name="lowtraxx/platform_system_core" groups="pdk" remote="github" revision="android-7.1.0_r4" />
+  <project path="system/core" name="lowtraxx/platform_system_core" groups="pdk" remote="github" revision="android-7.1" />
 </manifest>
