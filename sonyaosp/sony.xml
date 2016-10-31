@@ -29,9 +29,9 @@
   <project path="device/sony/dora" name="SonyAosp/device_sony_dora" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/kagura" name="SonyAosp/device_sony_kagura" groups="device" remote="github" revision="android-7.1" / -->
 
-  <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.1" />
+  <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="master" />
+  <project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="master" />
+  <project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="master" />
 
   <project path="hardware/sony/dataservices" name="SonyAosp/platform_hardware_sony_dataservices" groups="device" remote="github" revision="master" />
   <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />

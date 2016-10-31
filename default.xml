@@ -544,6 +544,5 @@
   <include name="sonyaosp/remove.xml" />
   <include name="sonyaosp/sony.xml" />
   <include name="sonyaosp/aosp.xml" />
-  <include name="sonyaosp/opengapps.xml" />
 
 </manifest>
