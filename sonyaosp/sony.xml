@@ -10,25 +10,6 @@
   <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.1" />
 
-  <!-- project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1" />
-
-  <project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/ivy" name="SonyAosp/device_sony_ivy" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/karin" name="SonyAosp/device_sony_karin" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/karin_windy" name="SonyAosp/device_sony_karin_windy" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/suzuran" name="SonyAosp/device_sony_suzuran" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/sumire" name="SonyAosp/device_sony_sumire" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/satsuki" name="SonyAosp/device_sony_satsuki" groups="device" remote="github" revision="android-7.1" />
-
-  <project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.1" />
-
-  <project path="device/sony/tone" name="SonyAosp/device_sony_tone" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/dora" name="SonyAosp/device_sony_dora" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/kagura" name="SonyAosp/device_sony_kagura" groups="device" remote="github" revision="android-7.1" / -->
-
   <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.1" />
