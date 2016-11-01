@@ -32,6 +32,7 @@
   <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.0" />
   <project path="vendor/nxp" name="SonyAosp/vendor_nxp" groups="device" remote="github" revision="android-7.0" / -->
 
+  <remove-project name="platform/hardware/qcom/camera" />
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
   <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
   <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
