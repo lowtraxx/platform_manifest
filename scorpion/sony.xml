@@ -22,6 +22,9 @@
 
   <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
 
+  <project path="vendor/qcom/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
+  <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+
   <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
 
   <project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
