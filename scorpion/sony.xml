@@ -53,6 +53,6 @@
   <project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
   <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
   <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/nxp" name="SonyAosp/vendor_nxp" groups="device" remote="github" revision="android-7.0" / -->
+  <project path="vendor/nxp" name="SonyAosp/vendor_nxp" groups="device" remote="github" revision="android-7.0" />
 
 </manifest>
