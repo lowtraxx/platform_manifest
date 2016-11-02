@@ -6,7 +6,6 @@
 
   <project path="hardware/qcom/audio" name="lowtraxx/platform_hardware_qcom_audio" groups="device" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/bt" name="lowtraxx/platform_hardware_qcom_bt" groups="device" remote="github" revision="android-7.1" />
-  <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
   <project path="hardware/qcom/display" name="lowtraxx/platform_hardware_qcom_display" groups="device" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/gps" name="lowtraxx/platform_hardware_qcom_gps" groups="device" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/keymaster" name="lowtraxx/platform_hardware_qcom_keymaster" groups="device" remote="github" revision="android-7.1" />
