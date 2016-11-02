@@ -60,6 +60,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Tag" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
