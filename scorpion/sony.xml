@@ -7,32 +7,6 @@
   <remote  name="sony"
            fetch="https://github.com/sonyxperiadev/" />
 
-  <!-- project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.1" />
-
-  <project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.1" />
-  <project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.1" />
-
-  <project path="hardware/sony/dataservices" name="SonyAosp/platform_hardware_sony_dataservices" groups="device" remote="github" revision="master" />
-  <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />
-  <project path="hardware/sony/timekeep" name="SonyAosp/platform_hardware_sony_timekeep" groups="device" remote="github" revision="master" />
-  <project path="hardware/sony/macaddrsetup" name="SonyAosp/platform_hardware_sony_macaddrsetup" groups="device" remote="github" revision="master" />
-  <project path="hardware/sony/init" name="SonyAosp/platform_hardware_sony_init" groups="device" remote="github" revision="android-7.1" />
-
-  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
-
-  <project path="vendor/qcom/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
-  <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
-
-  <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
-
-  <project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/nxp" name="SonyAosp/vendor_nxp" groups="device" remote="github" revision="android-7.0" / -->
-
-  <remove-project name="platform/hardware/qcom/camera" />
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
   <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
   <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
@@ -41,7 +15,6 @@
   <project path="device/sony/scorpion" name="device-sony-scorpion" groups="device" remote="sony" revision="master" />
   <project path="device/sony/scorpion_windy" name="device-sony-scorpion_windy" groups="device" remote="sony" revision="master" />
   <project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="sony" revision="master" />
-  <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
   <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
   <project path="vendor/qcom/opensource/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
@@ -50,10 +23,19 @@
   <project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
   <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
   <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+  <project path="packages/apps/Nfc" name="lowtraxx/platform_packages_apps_Nfc" groups="device" remote="sony" revision="master" />
 
-  <project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/nxp" name="SonyAosp/vendor_nxp" groups="device" remote="github" revision="android-7.0" />
+  <project path="hardware/qcom/audio" name="lowtraxx/platform_hardware_qcom_audio" groups="device" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/bt" name="lowtraxx/platform_hardware_qcom_bt" groups="device" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
+  <project path="hardware/qcom/display" name="lowtraxx/platform_hardware_qcom_display" groups="device" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/gps" name="lowtraxx/platform_hardware_qcom_gps" groups="device" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/keymaster" name="lowtraxx/platform_hardware_qcom_keymaster" groups="device" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/media" name="lowtraxx/platform_hardware_qcom_media" groups="device" remote="github" revision="android-7.1" />
+
+  <project path="vendor/qcom" name="lowtraxx/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
+  <project path="vendor/qcom/firmware" name="lowtraxx/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
+  <project path="vendor/sony" name="lowtraxx/vendor_sony" groups="device" remote="github" revision="android-7.0" />
+  <project path="vendor/nxp" name="lowtraxx/vendor_nxp" groups="device" remote="github" revision="android-7.0" />
 
 </manifest>
