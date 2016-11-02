@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="external/toybox" name="lowtraxx/platform_external_toybox" groups="pdk" remote="github" revision="android-7.1" />
+  <project path="external/libnfc-nci" name="lowtraxx/platform_external_libnfc-nci" groups="pdk" remote="github" revision="android-7.1" />
 
   <project path="packages/apps/Nfc" name="lowtraxx/platform_packages_apps_Nfc" groups="device" remote="github" revision="android-7.1" />
   <project path="packages/apps/Music" name="lowtraxx/platform_packages_apps_Music" groups="device" remote="github" revision="android-7.1" />

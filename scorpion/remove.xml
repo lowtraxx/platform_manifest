@@ -18,6 +18,7 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/hardware/akm" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
