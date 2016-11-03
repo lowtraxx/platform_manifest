@@ -8,7 +8,7 @@
            fetch="https://github.com/sonyxperiadev/" />
 
   <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
-  <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/common" name="lowtraxx/device-sony-common" groups="device" remote="github" revision="android-7.1" />
   <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
   <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
   <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="master" />
@@ -23,7 +23,7 @@
   <project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
   <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
   <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
-  <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
+  <project path="hardware/qcom/camera" name="lowtraxx/camera" groups="device" remote="github" revision="android-7.1" />
 
   <project path="vendor/qcom" name="lowtraxx/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
   <project path="vendor/qcom/firmware" name="lowtraxx/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
