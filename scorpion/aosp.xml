@@ -5,6 +5,7 @@
 
   <project path="packages/apps/Nfc" name="lowtraxx/platform_packages_apps_Nfc" groups="device" remote="github" revision="android-7.1" />
   <project path="packages/apps/Music" name="lowtraxx/platform_packages_apps_Music" groups="device" remote="github" revision="android-7.1" />
+  <project path="packages/apps/Camera2" name="lowtraxx/platform_packages_apps_Camera2" groups="device" remote="github" revision="nougat-release" />
 
   <project path="hardware/qcom/audio" name="lowtraxx/platform_hardware_qcom_audio" groups="device" remote="github" revision="android-7.1" />
   <project path="hardware/qcom/bt" name="lowtraxx/platform_hardware_qcom_bt" groups="device" remote="github" revision="android-7.1" />
