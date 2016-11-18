@@ -19,7 +19,7 @@
   <project path="kernel/sony/msm" name="lowtraxx/kernel" groups="device" remote="github" revision="android-7.1" />
 
   <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
-  <project path="vendor/qcom/opensource/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
   <project path="vendor/sony-oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
   <project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
   <project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
@@ -27,9 +27,9 @@
   <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
   <project path="hardware/qcom/camera" name="lowtraxx/camera" groups="device" remote="github" revision="android-7.1" />
 
-  <project path="vendor/qcom" name="lowtraxx/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
+  <project path="vendor/qcom" name="lowtraxx/vendor_qcom" groups="device" remote="github" revision="android-7.1" />
   <project path="vendor/qcom/firmware" name="lowtraxx/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/sony" name="lowtraxx/vendor_sony" groups="device" remote="github" revision="android-7.0" />
-  <project path="vendor/nxp" name="lowtraxx/vendor_nxp" groups="device" remote="github" revision="android-7.0" />
+  <project path="vendor/sony" name="lowtraxx/vendor_sony" groups="device" remote="github" revision="android-7.1" />
+  <project path="vendor/nxp" name="lowtraxx/vendor_nxp" groups="device" remote="github" revision="android-7.1" />
 
 </manifest>
